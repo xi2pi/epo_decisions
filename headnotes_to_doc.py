@@ -40,7 +40,7 @@ extrahiert = len(df)
 
 # Reihenfolge für die Sortierung
 language_order = ["EN", "FR", "DE"]
-decision_type_order = ["G", "J", "T", "D", "W"]
+decision_type_order = ["G", "J", "T", "D", "W", "R"]
 
 # Konvertiere das Jahr in numerischen Wert für die Sortierung
 df["Year"] = pd.to_numeric(df["Year"], errors="coerce")
