@@ -71,7 +71,7 @@ def parse_xml_to_dataframe(xml_file):
 
 
 # XML-Datei parsen und DataFrame erstellen
-xml_file = "./EPDecisions_September2025/EPDecisions_September2025.xml"  # Dateipfad anpassen
+xml_file = "./EPDecisions_March2026/EPDecisions_March2026.xml"  # Dateipfad anpassen
 df = parse_xml_to_dataframe(xml_file)
 
 # Entscheidungen ohne Headnote ausgeben
